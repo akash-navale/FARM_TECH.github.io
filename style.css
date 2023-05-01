@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.bag{
+background-image: url(firstbag.jpg);
+background-size: cover;
+
+    width: 100%;
+    height: 93vh;
+    position: relative;
+
+ 
+}
+.scrollmenu{
+   background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    height: 60px;
+  
+
+
+}
+.neon{
+    text-shadow: 0 0 20px #ec0053;
+   font-size: 3rem;
+  padding-top:200px;
+}
+#nev{
+    position:sticky;
+    top: 0px;
+    z-index: 1;
+}
+.scrollmenu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    text-align: center;
+}
+.scrollmenu a:hover{
+    color: rgb(10, 1, 1);
+    background-color: rgb(247, 243, 6);
+}
+.firm{
+    font-size: 22px;
+}
+.margin1{
+    margin-left: 10px;
+}
+.firm:hover{
+    font-size: 27px;
+    background-color: black!important;
+    color: rgb(243, 228, 20)!important;
+}
+
+strong{
+    border-bottom-style: ridge;
+    border-bottom-color: rgb(177, 162, 162);
+    font-size: 30px;
+    font-weight: bold;
+    
+  
+    
+}
+
+.bg-text{
+    margin-bottom: 200px;
+}
+.main-img{
+    width: 100%;
+    height: 230px;
+   
+}
+.mainfertilizer-img{
+ width: 100%;
+ height: 300px;
+ 
+}
+
+
+.second{
+    background-color: rgb(223, 211, 211);
+}
+.falbhajy{
+    width: 100%;
+    height: 220px;
+}
+.third{
+    background: linear-gradient(rgb(236, 148, 148),rgb(185, 236, 185));
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.sangli {
+    background-color: rgb(233, 210, 210);
+
+}
+a{
+    color: black;
+}
+.forth{
+    background-color: rgb(199, 199, 240);
+}
+.khate{
+    padding: 60px;
+}
+.fith{
+    background-color:rgb(228, 42, 150);
+}
+
+.white{
+    background-color: white;
+    border-radius: 15px;
+}
+.icon{
+    color: rgb(0, 4, 255);
+}
+.title{
+    background-color: rgb(43, 255, 0);
+    color: black;
+    font-weight: bold;
+    
+}
+
+@media(max-width:600px){
+    .falbhajy{
+        width: 100%;
+        height: 130px;
+       
+    } 
+    .bag{
+    background: image('firstbag.jpg');
+        width: 100%;
+        height:400px;
+        position: relative;
+    
+     
+    }
+    .neon{
+        text-shadow: 0 0 20px #ec0053;
+       font-size: 2.5rem;
+      padding-top:90px;
+    }
+    .neon2{
+        text-shadow: 0 0 10px #f80101;
+        padding: 10px;
+    }
+    .khate{
+        padding: 10px;
+    }
+    .mainfertilizer-img{
+        width: 100%;
+        height: 200px;
+        
+       }
+   
+}
