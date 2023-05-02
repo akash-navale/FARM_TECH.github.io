@@ -100,6 +100,11 @@
             }
         }
     </style>
+    <script>
+        let a = new Date();
+        a.toLocaleDateString();
+        document.getElementById('date').innerHTML="Date:" + date
+    </script>
 </head>
 
 <body>
@@ -125,7 +130,7 @@
         <center><strong>महाराष्ट्रातील प्रमुख बाजारपेटातील दैंनदिन बाजारभाव</strong></center>
     </div><br>
     <center>
-        <h4>Date:21/1/2022</h4>
+        <h4 id="date"></h4>
     </center>
 
 
